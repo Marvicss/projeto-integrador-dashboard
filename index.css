@@ -75,6 +75,7 @@ nav a {
 .btn-primary {
     background-color: #007bff;
     color: #fff;
+    text-decoration: none;
 }
 
 .btn-secondary {
