@@ -4,24 +4,18 @@
     background-color: antiquewhite;
     font-size: 20px;
     color: black;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
     align-items: center;
-
-
 }
 
 h1 {
-    margin: 0px;
-    align-items: center;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin: 0;
+    font-size: 40px; 
 }
 
 .myChart {
     margin-top: 20px;
     height: 100px;
-
 }
