@@ -84,9 +84,11 @@ nav a {
 .btn-secondary {
     background-color: #6c757d;
     color: #fff;
+    text-decoration: none;
 }
 
 .btn-success {
     background-color: #28a745;
     color: #fff;
+    text-decoration: none;
 }
