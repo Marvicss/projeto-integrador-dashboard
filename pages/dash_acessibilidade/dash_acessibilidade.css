@@ -22,13 +22,11 @@ h1 {
 
 }
 
-canvas {
-    margin: auto;
-    width: 50%;
-}
-
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
 }
 
 .navbar {
@@ -36,13 +34,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #D3CEF2;
     color: white;
 }
 
 .navbar-left .nav-link {
     color: white;
-    text-decoration: none;
+    text-decoration:solid;
     font-size: 16px;
 }
 
@@ -65,7 +63,30 @@ body {
     background-color: #ddd;
 }
 
-.conteudo {
+main{
     display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
 
+.grafico{
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-right: 2%;
+}
+
+.textos{
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+}
+p{
+    margin: 15px;
+    
 }

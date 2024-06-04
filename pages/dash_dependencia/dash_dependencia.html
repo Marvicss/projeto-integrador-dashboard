@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./dash_dependencia.css" />
+    <title>Resultado Dependencia</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="#" class="nav-link">Dados de Acessibilidade</a>
+        </div>
+        <div class="navbar-right">
+            <button class="home-button" onclick="window.location.href='../../index.html'">Página Inicial</button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="grafico">
+            <canvas id="dependencia"></canvas>
+        </div>
+
+        <div class="textos">
+            <h3>Resultados</h3>
+            <p>Foram analisados dados de 3000 escolas publicas e privadas na Região Metropolitana do Recie. Observando qual esfera de governaça dessa instituição</p>
+            <p>Nessa analise foi levado em consideração qual entidade governamental ou instituição é responsavel por realizar a gestão da unidade de esino</p>
+            <p>A partir dos dados coletados podemos observar que da totalidade de instituições de ensino na Região Metropolitana do Recife existem 1948 unidade de ensino com gestão privada, sendo as escolas privadas maioria em numero absoluto. Porem, quando levamos em consideração um contra ponto entre gestão privada e publica, onde nesse cenario somamos os resultados das instituições Federal, Estadual e Municipal chegamos a um total de 1391 instituições de ensino de gestão publica.
+            </p>
+        </div>
+    </main>
+
+    <script src="./dash_dependencia.js"></script>
+</body>
+
+</html>
