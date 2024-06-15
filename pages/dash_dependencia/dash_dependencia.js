@@ -14,7 +14,7 @@ async function fetchData() {
     });
 
     if (!response.ok) {
-      throw new Error('Network response was not ok ' + response.statusText);
+      throw new Error(`'Network response was not ok ' + ${response.statusText}`);
     }
 
     const data = await response.json();
@@ -25,8 +25,6 @@ async function fetchData() {
 }
 
 // Inicializa as variáveis de contagem
-
-
 fetchData().then((data) => {
   if (data && data.results) {
     const acessibilidade = data.results[0];
@@ -36,7 +34,6 @@ fetchData().then((data) => {
     let Estadual = acessibilidade.Estadual;
     let Municipal = acessibilidade.Municipal;
     let Privada = acessibilidade.Privada;
-
 
     // Cria o gráfico após obter os dados
     const ctx = document.getElementById('dependencia').getContext('2d');
